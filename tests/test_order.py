@@ -856,4 +856,4 @@ def test_send_fulfillment_order_lines_mails(
             "email_type": OrderEventsEmails.DIGITAL_LINKS,
         }
     else:
-        assert len(events) == 1
+        assert len(events) == 2
